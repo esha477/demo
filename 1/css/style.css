@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding:0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+body{
+    background: #efefef;
+    color: #000;
+}
+/*-------------header start ---------*/
+header .head{
+    padding: 10px 9%;
+    background: #4F4E4E;
+}
+header .head h3{
+    color: #fff;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1.1px;
+    font-family: "Roboto", Sans-serif;
+    margin-bottom: 0;
+}
+header .main-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10%;
+    padding-top: 1rem;
+    background: red;
+    padding-bottom: 0;
+}
+header .main-head .head-text p{
+font-size: 9px;
+color: #fff;
+line-height: 0em;
+font-family: "Roboto", Sans-serif;
+font-weight: 400;
+}
+header .main-head .head-text span{
+    padding-left: 1rem;
+}
+header .main-head .head-inside p{
+    color: #fff;
+    font-size: 9px;
+}
+/*------------------navbar start-------------*/
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 10%;
+    background: #F8F5F0;
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.1);
+}
+
+ nav .navigation a{
+    
+    margin-left: 1rem;
+    font-size: 11px;
+    text-decoration: none;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+}
+ nav .navigation a:hover{
+    color: #454444;
+}
+ nav .icon{
+	font-size: 20px;
+	border: 2px solid #626262;
+	border-radius: 5px;
+	color: #626262;
+	padding: 5px 5px;
+	cursor: pointer;
+	display: none;
+}
+/*-----------hero area-------*/
+.hero{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #2098b1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 7%;
+    border-bottom: 30px solid red;
+}
+.hero form{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-top: 5px solid red;
+    background: #fff;
+    padding: 1rem;
+    overflow: hidden;
+}
+.hero h3{
+    font-size: 1rem;
+    color: red;
+    font-family: 'QuincyCF-Regular';
+}
+.hero form p{
+    padding-top: 1rem;
+    font-size: 13px;
+    
+    font-family: 'Moderat-Regular';
+}
+.hero input{
+    width: 100%;
+    height: 50px;
+    padding: 0.5rem;
+    display: block;
+}
+.hero button{
+    font-size: 15px;
+    background-color: #414a52!important;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 0.5rem;
+}
+.hero .hero-text input{
+    border: 1px solid #626262;
+   color: #b42c01 !important;
+   font-weight: 500;
+}
+.hero .hero-exp{
+    display: flex;
+    align-items: center;
+}
+.hero .hero-exp input{
+    border: 1px solid #626262;
+    padding: 0.5rem 1rem;
+    width: 100px;
+}
+.hero #hide p{
+font-size: 12px;
+color: red;
+cursor: pointer;
+}
+.hero #hide{
+    cursor: pointer;
+}
+.hero-img img{
+    width: 100%;
+}
+.hide-form{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: red;
+    border: 1px solid #626262;
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    display: none;
+}
+.hide-form h2{
+    padding-top: 2rem;
+    font-size: 1rem;
+    color: #fff;
+}
+.hide-form p{
+    font-size: 1rem;
+    color: #fff;
+    line-height: 1.7em;
+    color: #fff;
+    padding: 1rem;
+}
+.hide-form span{
+    font-size: 2rem;
+    color: #fff;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/*------------------slider section-----------*/
+.line{
+    width: 80%;
+    background: red;
+    margin: 1rem auto;
+    height: 5px;
+}
+.main-slider{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 1rem auto;
+    padding-bottom: 2rem;
+}
+.main-slider .slider-text{
+    flex-basis: 40%;
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.04);
+    padding: 1rem 1rem;
+}
+.main-slider .slider-inside{
+    flex-basis: 40%;
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.04);
+    padding: 1rem 1rem;
+}
+.main-slider .slider-text h4{
+    color: red;
+    font-size: 13px;
+    font-family: "RocknRoll One";
+}
+.main-slider .slider-text p{
+    padding-top: 1rem;
+    padding-bottom:1rem;
+    color: #626262;
+    font-size: 12px;
+    font-family: "Modern Antiqua";
+}
+.main-slider .slider-text button{
+    padding: 0.5rem 1.2rem;
+    background: #282C29;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+   font-family: "Secular One";
+    font-weight: 500;
+}
+.carousel-item img{
+    width: 100%;
+}
+
+
+
+
+/*-----------small screen---------*/
+@media only screen and (max-width:771px){
+    nav{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 70px;
+        background: #DC0B13;
+        padding: 20px 10%;
+       
+        box-shadow: 0 0 10px 10px rgba(0,0,0,0.1);
+    }
+    .head{
+        position: absolute;
+        top: 70px;
+        left: 0px;
+        
+    }
+    header .main-head{
+        display: none;
+    }
+	.navigation{
+		position: absolute;
+        height: 200px;
+        width: 300px;
+    top: 70px;
+    right: 0px;
+    background: #DC0B13;
+
+max-height: 0;
+overflow: hidden;
+box-shadow: 0 0 10px 10px rgba(0,0,0,0.1);
+	}
+	.nav-active{
+		max-height: 150px;
+	}
+	 nav a{
+		display: block;
+		line-height: 2.5em;
+		padding-left: 20px;
+		position: relative;
+	}
+    nav .icon{
+        display: block;
+    }
+    .hero{
+        display: block;
+        margin-top: 300px;
+    }
+    .main-slider{
+        display: block;
+    }
+}
+
+.input-container {
+  position: relative;
+}
+
+.input-container input {
+  padding-right: 30px; /* Space for the validation icon */
+}
+
+#validationIcon {
+  position: absolute;
+  top: 50%; /* Adjust this value to center vertically */
+  right: 10px; /* Adjust this value to position horizontally */
+  transform: translateY(-50%); /* Center vertically */
+}
+
+.input-container2 {
+  position: relative;
+}
+
+.input-container2 input {
+  padding-right: 30px; /* Adjust the value to position the span properly */
+}
+
+.input-container2 span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 10px; /* Adjust the value for padding as needed */
+  z-index: 1;
+}
+
+.input-container2 {
+  margin-right: 10px; /* Adjust the value to control the horizontal gap */
+  margin-bottom: 10px; /* Adjust the value to control the vertical gap */
+}
+ .valid::before {
+            content: url('../images/tick.png');
+            display: inline-block;
+            margin-right: 5px;
+        }
+
+        .invalid::before {
+            content: url('../images/cross.png');
+            display: inline-block;
+            margin-right: 5px;
+        }
+
+
+
+    .placeholder {
+ 
+  font-family: Moderat-Regular;
+}
+    /* Add CSS styles for the animated placeholder */
+
+.input-container {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+
+
+.input-container input:focus + .placeholder,
+.input-container input:valid + .placeholder {
+  top: 0;
+  font-size: 12px;
+  color: #000; /* Color when the placeholder moves up */
+}
+
+.input-container2 {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.placeholder {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  transition: all 0.3s ease;
+  pointer-events: none;
+  color: #999; /* Color for the placeholder */
+}
+
+.input-container2 input:focus + .placeholder,
+.input-container2 input:valid + .placeholder {
+  top: 0;
+  font-size: 12px;
+  color: #000; /* Color when the placeholder moves up */
+}
+
+/* CSS to control the size of the CVV image within the placeholder */
+.input-container2 {
+    position: relative;
+}
+
+.placeholder img {
+    width: auto; /* Set the desired width for the image */
+    height: auto; /* Set the desired height for the image */
+    margin-right: 5px; /* Add some space between the image and text */
+    vertical-align: middle; /* Center the image vertically with the text */
+}
+
+/* Additional styles for the text part of the placeholder */
+.placeholder span {
+    font-size: 14px; /* Set the font size for the text */
+    color: #000; /* Text color */
+}
+
+/* Change password input text color to red */
+    input[type="password"] {
+        color: #b42c01 !important;
+    }
+
+    /* Change the color of the "fa-eye" icon to red */
+    .fa-eye {
+        color: #b42c01 !important;
+    }
+    .fa-eye-slash {
+        color:  #b42c01 !important;
+    }
+
+     /* Default styles for the desktop logo */
+.logo .mobile-logo {
+    display: none;
+}
+
+/* Media query to show the mobile logo at or below 771px width */
+@media only screen and (max-width: 771px) {
+    .logo .desktop-logo {
+        display: none;
+    }
+
+    .logo .mobile-logo {
+        display: block;
+    }
+}

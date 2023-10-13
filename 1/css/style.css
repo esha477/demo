@@ -65,7 +65,7 @@ header .main-head .head-inside p{
     text-decoration: none;
     font-family: "Roboto", Sans-serif;
     font-weight: 600;
-    color: #ffffff;
+    
 }
  nav .navigation a:hover{
     color: #454444;
@@ -434,5 +434,16 @@ box-shadow: 0 0 10px 10px rgba(0,0,0,0.1);
 
     .logo .mobile-logo {
         display: block;
+    }
+}
+/* Default styles for desktop links */
+.desktop-link {
+    color: #212529;
+}
+
+/* Media query to change link color for mobile */
+@media only screen and (max-width: 771px) {
+    .desktop-link {
+        color: #ffffff;
     }
 }
